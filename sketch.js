@@ -6,7 +6,8 @@ let names = [
 ];
 
 let statements = [
-    'You\'re an amazing friend!'
+    'you\'re an amazing friend!',
+    'we love you so much!',
 ];
 
 function get_random_from_list(list){
@@ -22,6 +23,5 @@ function set_div(){
 }
 
 document.addEventListener("click", set_div);
-document.addEventListener("dblclick", set_div);
 
 set_div();

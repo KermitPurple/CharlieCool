@@ -13,12 +13,19 @@ body{
 }
 
 #knockout_text{
+    display: inline;
     background: black;
     color: white;
-    margin: 0;
+    margin: 2em;
     padding: 0.5em;
     border-radius: 0.5em;
     font-size: 4em;
     mix-blend-mode: multiply; /* Makes the text transparent */
     font-family: sans-serif;
+}
+
+@media only screen and (max-device-width: 667px){
+    #knockout_text{
+        font-size: 100px;
+    }
 }
