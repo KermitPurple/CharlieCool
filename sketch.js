@@ -13,6 +13,11 @@ let statements = [
     'you\'ve helped sam through so much',
     'you are really nice even when I act like an asshole',
     '<3',
+    'you\'re wonderful!',
+    'your smile lights up the room',
+    'your laughter is contagious',
+    'ur Pog',
+    'I am proud to be your friend',
 ];
 
 function get_random_from_list(list){
